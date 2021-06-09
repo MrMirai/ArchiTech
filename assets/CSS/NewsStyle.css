@@ -1,0 +1,150 @@
+    /* Статьи*/
+.article_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.article {
+    display: flex;
+    margin: 40px auto;
+    text-align: center;
+    color:cornsilk;
+    background-color: #2f2f2f;
+    border-radius: 42px;
+    box-shadow: 0 0 54px rgb(0 0 0 / 29%);
+    justify-content: center;
+    padding: 0px 40px;
+}
+.article_left {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 42px;
+    
+}
+.article_right {
+    display: flex;
+    justify-content: flex-end;
+    
+    border-radius: 42px;
+    
+}
+
+.article_grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.article_grid_right {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.article_index {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-auto-rows: auto;
+}
+
+.article_grid > img.article_image {
+    display: grid-group;
+    margin-left: 20px;
+} 
+
+.article_grid_right > img.article_image {
+    display: grid-group;
+    margin-right: 20px;
+}
+
+.article_index > div.article_title {
+    display: grid-group;
+    /* margin-left: 20px; */
+    margin-top: 2%;
+}
+
+.article_index > div.article_text {
+    display: flex;
+    margin-left: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.article_image {
+    display: grid-group;
+    margin: 3% auto 3% auto;
+    width: 300px;
+    height: auto;
+    border-radius: 3%;
+}
+
+.article_title {
+    display: grid-group;
+    margin-left: 20px;
+}
+
+.article_text {
+    display: grid-line;
+    margin-left: 20px;
+}
+
+    /*Slider*/
+
+#slider {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+
+       /*Статьи*/
+
+.mainarticle {
+    display: flex;
+    box-shadow: 0 0 54px rgb(0 0 0 / 29%);
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 950px;
+    margin: 0px auto 50px;
+    border: 0px solid #2f2f2f;
+    border-radius: 30px;
+    padding: 0px 40px;
+}
+
+.mainarticle > p{
+    text-align: left;
+    text-indent: 20px;
+}
+.mainarticle > ul{
+    text-align: left;
+}
+
+      /*PageMap*/
+
+.PageMap {
+    display: flex;
+    box-shadow: inset 0 0 54px rgb(0 0 0 / 29%);
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 950px;
+    margin: 50px auto 50px;
+    border: 0px solid #2f2f2f;
+    border-radius: 30px;
+    padding: 20px 40px;
+    align-items: center;
+    text-align: left;
+}
+
+.PageMap a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 20px;
+}

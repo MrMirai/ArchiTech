@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://c90050c6.beget.tech/index.html#link_top -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./Главная_files/header.css">
+    <link rel="stylesheet" href="./Главная_files/index.css">
+    <link rel="icon" href="http://c90050c6.beget.tech/favicon.png" type="image/png">
+    <meta name="theme-color" content="#cfdef3">
+    <title>Главная</title>
+</head>
+<body cz-shortcut-listen="true">
+    <div id="header_container">
+        <header>
+            <a href="http://c90050c6.beget.tech/index.html">
+                <div id="logo"></div>
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://c90050c6.beget.tech/news.html">НОВОСТИ</a>
+                    </li>
+                    <li>
+                        <a href="http://c90050c6.beget.tech/programs.html">ПО</a>
+                    </li>
+                    <li>
+                        <a href="http://c90050c6.beget.tech/devices.html">ТЕХНИКА</a>
+                    </li>
+                    <li>
+                        <a href="http://c90050c6.beget.tech/site_info.html">О САЙТЕ</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="banner">
+        <section class="banner_content">
+            <div class="banner_text">
+                <h1>ОТЕЧЕСТВЕННЫЕ<br>IT-РАЗРАБОТКИ</h1>
+                <a href="http://c90050c6.beget.tech/index.html#link_top" style="">УЗНАТЬ БОЛЬШЕ</a>
+            </div>
+            <div class="banner_img" style="content: url(&#39;img/index/CPU.png&#39;);"></div>
+        </section>
+    </div>
+    <section id="about">
+        <h2><b>О чём наш сайт?</b></h2>
+        <p>Сайт нацелен на популяризацию отечественных IT компаний<br>среди пользоватей сети <i>Internet</i>.</p>
+    </section>
+    <a id="link_top"></a>
+    <section id="top">
+        <h2>Топ статей</h2>
+        <div class="card_container">
+            <div class="card">
+                <div class="card_image" style="background-image: url(&quot;https://www.underconsideration.com/brandnew/archives/jetbrains_logo_detail.jpg&quot;);"></div>
+                <h2>JETBRAINS</h2>
+                <p>Данная компания выпускает среды разработки для разных языков программирования, а так же язык программирования Kotlin...</p>
+                <a href="http://c90050c6.beget.tech/programs.html#JetBrains" class="card_arrow"></a>
+            </div>
+            <div class="card">
+                <div class="card_image" style="background-image: url(&quot;http://dataenginer.ru/wp-content/uploads/2019/06/mcst-identity-1.png&quot;);"></div>
+                <h2>МЦСТ</h2>
+                <p>Данная компания выпускает центральные процессоры для персональных компьютеров...</p>
+                <a href="http://c90050c6.beget.tech/devices.html#MCST" class="card_arrow"></a>
+            </div>
+            <div class="card">
+                <div class="card_image" style="background-image: url(&quot;https://trashbox.ru/ifiles/1317696_e6bfca_vk_new_style.png-orig/2020-10-09-design-rebranding-fresh-5.jpg&quot;);"></div>
+                <h2>ВКонтакте</h2>
+                <p>Вконтакте - российская социальная сеть со штаб-квартирой в Санкт-Петербурге. Сайт доступен на 89 языках, популярен среди русскоязычных пользователей...</p>
+                <a href="http://c90050c6.beget.tech/programs.html#MailRu_Vk" class="card_arrow"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Антон Иванов, 1ПИб-01-12оп<br>МПО ЭВМ ИИТ ЧГУ<br>2021 г.</p>
+    </footer>
+
+</body></html>
